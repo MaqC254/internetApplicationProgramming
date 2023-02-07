@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+<title>
+Register</title>
+</head>
+<h1 style="color:white">Register employees here</h1>
+<body style="background-color:black">
+<form style="background-color:grey;" action="john.php" method="POST">
+	<fieldset>
+		<legend>Employee Personal Details</legend>
+		<label for="Name" id="Name" name="Name">Name:</label>
+		<input type="text" id="Name" name="Name"><br>
+		<label for="Phone number" id="Phone number" name="Phone number">Phone number:</label>
+		<input type="text" id="Phone number" name="Phone number" placeholder="07xxxxxxxx"><br>
+		<label for="ID Number" id="ID Number" name="ID Number">ID Number:</label>
+		<input type="text" id="ID Number" name="ID Number"><br>
+		<label for="KRA Pin" id="KRA Pin" name="KRA Pin">KRA Pin:</label>
+		<input type="text" id="KRA Pin" name="KRA Pin"><br>
+		<label for="Email address" id="Email address" name="Email address">Email address:</label>
+		<input type="text" id="Email address" name="Email address"><br>
+		<label for="Gender" id="Gender" name="Gender">Gender:</label>
+		<input type="radio" id="Gender" name="Gender" value="Male">
+		<label for="Gender" id="Gender" name="Male">Male</label>
+		<input type="radio" id="Gender" name="Gender" value="Female">
+		<label for="Gender" id="Gender" name="Female">Female</label><br><br>
+		<label for="Department" id="Department" name="Department">Department</label><br>
+			<select id="Department" name="Department">
+				<option value="Management" >Management</option>
+				<option value="Finance">Finance</option>
+				<option value="ICT" selected >ICT</option>
+				<option value="Human Resource">Human Resource</option>
+				<option value="Customer Service">Customer Service</option>
+			</select>
+	</fieldset>
+	<fieldset>
+	<legend>Employee Renumeration Package</legend>
+	<label for="Basic Salary" id="Basic Salary" name="Basic Salary">Basic Salary:</label>
+	<input type="text" id="Basic Salary" name="Basic Salary"><br>
+	<label for="House Allowance" id="House Allowance" name="House Allowance">House Allowance:</label>
+	<input type="text" id="House Allowance" name="House Allowance"><br>
+	<label for="Commuter Allowance" id="Commuter Allowance" name="Commuter Allowance">Commuter Allowance:</label>
+	<input type="text" id="Commuter Allowance" name="Commuter Allowance">
+	</fieldset><br>
+	<button id="Reg" name="Reg">Register Employee</button>
+</form>
+</body>
